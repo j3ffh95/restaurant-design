@@ -93,3 +93,27 @@ nav a:hover {
   padding: 1rem;
   font-weight: 200;
 }
+
+.white-link {
+  background-color: #fff;
+  color: #2d99a4;
+  padding: 1rem;
+}
+
+.teal-link {
+  background-color: #2d99a4;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .pre-nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .content {
+    font-size: 1.5rem;
+  }
+}
