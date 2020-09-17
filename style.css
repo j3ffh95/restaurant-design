@@ -27,3 +27,14 @@ a {
   width: 1000px;
   max-width: 100%;
 }
+
+nav {
+  padding: 0.5rem 0;
+}
+
+.pre-nav {
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
